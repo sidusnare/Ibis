@@ -3,10 +3,10 @@
 
 TWITTER_BASE='https://twitter.com/search?f=tweets&vertical=default&q=geocode%3A'
 RADIUS='30km'
-#When the NHC is tracking a tropical storm / huricane, it will have a box on http://www.nhc.noaa.gov/ 
+#When the NHC is tracking a tropical storm / hurricane, it will have a box on http://www.nhc.noaa.gov/ 
 #in the top left there will be an RSS looking icon that points to an XML feed with a markup they are 
 #calling georss. We are just going to be crude and cut the lat long out of it with grep, etc... 
-#So if you are using this after Irma, look find the new / coreect feed and set it below.
+#So if you are using this after Irma, look find the new / correct feed and set it below.
 NOAA_NHC_FEED='http://www.nhc.noaa.gov/nhc_at1.xml'
 
 
